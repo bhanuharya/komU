@@ -120,3 +120,25 @@
     flex-direction: column;
   }
 }
+
+@media (max-width: 768px) {
+  
+  .web{
+    display: none !important;
+
+    
+
+  }
+}
+
+
+
+@media (min-width: 768px) {
+  .mobile{
+    display: none !important;
+
+    
+
+  }
+}
+

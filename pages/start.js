@@ -23,8 +23,11 @@ export default function Home() {
           Ayo isi perasaan hati mu disini!
           
         </p>
-        <div>
+        <div className={styles.web}>
         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe70rvGG-HNzIT3mgG0gEZFmtYUOWGgZr5LmNtXnXrw0CQVdQ/viewform?embedded=true" width="650" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+        <div className={styles.mobile}>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe70rvGG-HNzIT3mgG0gEZFmtYUOWGgZr5LmNtXnXrw0CQVdQ/viewform?embedded=true" width="320" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
         
 
