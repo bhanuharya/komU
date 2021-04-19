@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-
+import 'emoji-mart/css/emoji-mart.css'
+import { Picker } from 'emoji-mart'
 
 
 export default function Home() {
@@ -15,22 +16,20 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="/">komU</a>
+          <a href="/">komU</a>
         </h1>
 
         <p className={styles.description}>
-          komU is a blablablabla
+          Ayo isi perasaan hati mu disini!
           
         </p>
+        <div>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe70rvGG-HNzIT3mgG0gEZFmtYUOWGgZr5LmNtXnXrw0CQVdQ/viewform?embedded=true" width="650" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
         
 
-        <p className={styles.description}>
-          Get started by click the button below!
-          
-        </p>
-
-        <a href="/start"><button type="button" class="btn btn-primary" href="/start">Start!</button></a>
-
+        
+        
         {/* <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h3>Documentation &rarr;</h3>
