@@ -14,7 +14,7 @@ export default function Home() {
        <script src="jquery.serialize-object.min.js"></script>
        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
        
-        <script type="text/javascript" src="/form_script.js"/>
+        <script type="text/javascript" src="../form_script.js"/>
       </Head>
 
       <main className={styles.main}>
