@@ -19,7 +19,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          komU is a blablablabla
+          komU adalah sebuah platform ....
           
         </p>
         

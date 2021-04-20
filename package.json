@@ -10,6 +10,7 @@
   "dependencies": {
     "bootstrap": "^5.0.0-beta3",
     "emoji-mart": "^3.0.1",
+    "form-serializer": "^2.5.0",
     "jquery": "^3.6.0",
     "next": "^10.1.3",
     "react": "17.x",

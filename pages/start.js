@@ -10,8 +10,9 @@ export default function Home() {
       <Head>
         <title>komU</title>
         <link rel="icon" href="/favicon.ico" />
-        
-        
+        <script src="jquery.min.js"></script>
+       <script src="jquery.serialize-object.min.js"></script>
+        <script type="text/javascript" src="../form_script.js"/>
       </Head>
 
       <main className={styles.main}>
@@ -23,13 +24,36 @@ export default function Home() {
           Ayo isi perasaan hati mu disini!
           
         </p>
-        <div className={styles.web}>
+        {/* <div className={styles.web}>
         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe70rvGG-HNzIT3mgG0gEZFmtYUOWGgZr5LmNtXnXrw0CQVdQ/viewform?embedded=true" width="650" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
         <div className={styles.mobile}>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe70rvGG-HNzIT3mgG0gEZFmtYUOWGgZr5LmNtXnXrw0CQVdQ/viewform?embedded=true" width="320" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe70rvGG-HNzIT3mgG0gEZFmtYUOWGgZr5LmNtXnXrw0CQVdQ/viewform?embedded=true" width="330" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
-        
+         */}
+        <form id="test-form">
+  
+  <div>
+    <label>To (email address)</label>
+    <input type="text" name="form_field_1" placeholder="Field 1"/>
+  </div>
+
+  <div>
+    <label>subject</label>
+    <input type="text" name="form_field_2" placeholder="Field 2"/>
+  </div>
+  
+  <div>
+    <label>message</label>
+    <input type="text" name="form_field_3" placeholder="Field 3"/>
+  </div>
+  
+  
+  <div>
+    <button type="submit"id="submit-form">Submit</button>
+  </div>
+
+</form>
 
         
         
