@@ -14,7 +14,7 @@ export default function Home() {
        <script src="jquery.serialize-object.min.js"></script>
        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
        
-        <script type="text/javascript" src="../form_script.js"/>
+        
       </Head>
 
       <main className={styles.main}>
@@ -26,18 +26,39 @@ export default function Home() {
           Ayo isi perasaan hati mu disini!
           
         </p>
-        {/* <div className={styles.web}>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe70rvGG-HNzIT3mgG0gEZFmtYUOWGgZr5LmNtXnXrw0CQVdQ/viewform?embedded=true" width="650" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-        </div>
-        <div className={styles.mobile}>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe70rvGG-HNzIT3mgG0gEZFmtYUOWGgZr5LmNtXnXrw0CQVdQ/viewform?embedded=true" width="330" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-        </div>
-         */}
-       <form name="submit-to-google-sheet">
-       <input name="email" type="email" placeholder="Email" required/>
-  <button type="submit">Send</button>
-       </form>
-  
+        <form class="form" action="https://docs.google.com/forms/d/e/1FAIpQLSe70rvGG-HNzIT3mgG0gEZFmtYUOWGgZr5LmNtXnXrw0CQVdQ/formResponse">
+       
+       
+       
+        <div className="form-komu">
+
+        
+<div>
+{/* <label>Email</label> */}
+<input name="entry.803274866" type="email" placeholder="Email untuk orang yang kamu tuju" />
+</div>
+<div>
+{/* <label>Subject</label> */}
+<input name="entry.919176692" type="text" placeholder="Subjek email" />
+
+</div>
+<div>
+{/* <label>Message</label> */}
+
+<input name="entry.522405927" type="text"  placeholder="Pesan yang kamu ingin berikan" required/>
+</div>
+
+
+</div>
+
+
+
+
+<input style={{background:"#0070f3", color:"white"}} type="submit" value="Send" />
+
+
+</form>
+
 
 
         
