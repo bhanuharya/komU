@@ -7,6 +7,12 @@
   align-items: center;
 }
 
+.container p{
+  font-size: 24px;
+}
+
+
+
 .main {
   padding: 5rem 0;
   flex: 1;
@@ -33,10 +39,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #8a8a8a !important;
+  text-decoration: none !important;
 }
 
 .title a {
-  color: #0070f3;
+  color: #2db0ed;
   text-decoration: none;
 }
 
@@ -95,8 +103,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #2db0ed;
+  border-color: #2db0ed;
 }
 
 .card h3 {
@@ -129,7 +137,16 @@
     
 
   }
+
+  .container p{
+    font-size: 15px;
+  }
+  
+  .container h1{
+    font-size: 38px;
+  }
 }
+
 
 
 
@@ -148,3 +165,7 @@
   text-align: center;
 }
 
+.btn-komu{
+  background-color: #2db0ed !important;
+  border-color: #2db0ed !important;
+}

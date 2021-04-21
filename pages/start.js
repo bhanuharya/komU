@@ -23,29 +23,70 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Ayo isi perasaan hati mu disini!
+          <b>Komunikasikan perasaanmu untuknya, untukmu.</b>
+        
           
         </p>
-        <form class="form" action="https://docs.google.com/forms/d/e/1FAIpQLSe70rvGG-HNzIT3mgG0gEZFmtYUOWGgZr5LmNtXnXrw0CQVdQ/formResponse">
+        <form class="form" action="https://docs.google.com/forms/d/e/1FAIpQLSd6c_laZNstz9lmQCibZo6bAPmz--7kkZzbhq0ZIBf5xyQiew/formResponse">
        
        
        
         <div className="form-komu">
 
         
-<div>
+<div className="komu-input">
 {/* <label>Email</label> */}
-<input name="entry.803274866" type="email" placeholder="Email untuk orang yang kamu tuju" />
+<input name="entry.562937120" type="email" placeholder="Email yang dituju" required/>
 </div>
-<div>
+<div className="komu-input">
 {/* <label>Subject</label> */}
-<input name="entry.919176692" type="text" placeholder="Subjek email" />
+<input name="entry.172967941" type="text" placeholder="Subjek email" />
 
 </div>
-<div>
+<div className="komu-input">
 {/* <label>Message</label> */}
 
-<input name="entry.522405927" type="text"  placeholder="Pesan yang kamu ingin berikan" required/>
+<input name="entry.545272999" type="text"  placeholder="Nama yang dituju" required/>
+</div>
+<div className="komu-input">
+{/* <label>Message</label> */}
+
+<input name="entry.763197166" type="text"  placeholder="Sapaan untukmu (Saya, Aku, Gue,...)" required/>
+</div>
+<div className="komu-input">
+{/* <label>Message</label> */}
+
+<input name="entry.1260721810" type="text"  placeholder="Sapaan untuknya (Anda, Kamu, Lo, ...)" required/>
+</div>
+
+<div className="komu-input">
+{/* <label>Message</label> */}
+
+<input name="entry.394017876" type="text"  placeholder="Perasaan positif apa yang kamu rasakan mengenai dirinya? Mengapa?" required/>
+</div>
+
+<div className="komu-input">
+{/* <label>Message</label> */}
+
+<input name="entry.1131511430" type="text"  placeholder="Perasaan negatif apa yang kamu rasakan mengenai dirinya? Mengapa?" required/>
+</div>
+
+<div className="komu-input">
+{/* <label>Message</label> */}
+
+<input name="entry.1055247069" type="text"  placeholder="Perubahan apa yang kamu harapkan dari dirinya?" required/>
+</div>
+
+<div className="komu-input">
+{/* <label>Message</label> */}
+
+<input name="entry.470800380" type="text"  placeholder="Apa yang menurutmu dapat kamu lakukan dalam mendukung perubahan tersebut?" required/>
+</div>
+
+<div className="komu-input">
+{/* <label>Message</label> */}
+
+<input name="entry.72497473" type="text"  placeholder="Untuk menutup pesanmu, hal positif apa yang ingin kamu katakan tentang dirinya?" required/>
 </div>
 
 
@@ -54,7 +95,7 @@ export default function Home() {
 
 
 
-<input style={{background:"#0070f3", color:"white"}} type="submit" value="Send" />
+<input style={{background:"#2db0ed", color:"white",  margin:"1.5rem auto"}} type="submit" value="Send" />
 
 
 </form>

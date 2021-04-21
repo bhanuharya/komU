@@ -1,12 +1,13 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-
+import Image from 'next/image'
 
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
+        
         <title>komU</title>
         <link rel="icon" href="/favicon.ico" />
         
@@ -14,22 +15,28 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+      <Image
+        src="/logofix.png"
+        alt="Picture of the author"
+        width={110}
+        height={110}
+      />
         <h1 className={styles.title}>
-          Welcome to <a href="/">komU</a>
+
+          Hi, aku <a href="/">komU</a>!
         </h1>
 
         <p className={styles.description}>
-          komU adalah sebuah platform ....
-          
+        
         </p>
         
 
         <p className={styles.description}>
-          Get started by click the button below!
+        KomU adalah sebuah platform komunikasi untukmu yang ingin menyampaikan perasaanmu dengan lebih baik :)
           
         </p>
 
-        <a href="/start"><button type="button" class="btn btn-primary" href="/start">Start!</button></a>
+        <a href="/start"><button type="button" class="btn btn-primary" href="/start" style={{}}>Mulai!</button></a>
 
         {/* <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
