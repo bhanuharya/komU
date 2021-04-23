@@ -1,1 +1,1 @@
-https://komu.vercel.app/start
+https://komu.vercel.app/
