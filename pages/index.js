@@ -10,7 +10,7 @@ export default function Home() {
       <Head>
         
         <title>komU | Platform Komunikasi Untukmu yang Ingin Menyampaikan Perasaanmu dengan Lebih Baik :)</title>
-        <description>Alat komunikasi di mana kata ganti orang pertama digunakan (menggunakan "Saya" bukan “Anda") seperti "Saya terganggu oleh kebiasaan Anda" daripada "Anda memiliki kebiasaan buruk," sehingga mengurangi negativitas dan kesan menyalahkan. Teknik yang terdiri dari menanggapi perilaku dengan membuat pernyataan positif tentang perilaku yang dilakukan di awal dan di akhir, dan memberikan kritik di antaranya</description>
+      
         <link rel="icon" href="/komu.ico" />
         <meta property="og:image" content="../public/logofix.png" key="ogimage" />
         
