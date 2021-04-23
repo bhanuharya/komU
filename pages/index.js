@@ -3,13 +3,16 @@ import styles from '../styles/Home.module.css'
 import Image from 'next/image'
 
 
+
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
         
-        <title>komU</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>komU | Platform Komunikasi Untukmu yang Ingin Menyampaikan Perasaanmu dengan Lebih Baik :)</title>
+        <description>Alat komunikasi di mana kata ganti orang pertama digunakan (menggunakan "Saya" bukan “Anda") seperti "Saya terganggu oleh kebiasaan Anda" daripada "Anda memiliki kebiasaan buruk," sehingga mengurangi negativitas dan kesan menyalahkan. Teknik yang terdiri dari menanggapi perilaku dengan membuat pernyataan positif tentang perilaku yang dilakukan di awal dan di akhir, dan memberikan kritik di antaranya</description>
+        <link rel="icon" href="/komu.ico" />
+        <meta property="og:image" content="../public/logofix.png" key="ogimage" />
         
         
       </Head>
@@ -18,7 +21,7 @@ export default function Home() {
         <div className={styles.main && styles.verticalCenter1} >
         <Image
         src="/logofix.png"
-        alt="Picture of the author"
+        alt="Logo Komu"
         width={110}
         height={110}
       />
