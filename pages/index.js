@@ -14,16 +14,17 @@ export default function Home() {
         
       </Head>
 
-      <main className={styles.main}>
-      <Image
+      <main>
+        <div className={styles.main && styles.verticalCenter1} >
+        <Image
         src="/logofix.png"
         alt="Picture of the author"
         width={110}
         height={110}
       />
-        <h1 className={styles.title}>
+        <h1 className={styles.title} style={{fontWeight:"800"}}>
 
-          Hi, aku <a href="/">komU</a>!
+        <a href="/">Hi, aku komU!</a>
         </h1>
 
         <p className={styles.description}>
@@ -36,7 +37,11 @@ export default function Home() {
           
         </p>
 
-        <a href="/start"><button type="button" class="btn btn-primary" href="/start" style={{}}>Mulai!</button></a>
+        
+        <p className={styles.title2} style={{fontWeight:"800"}}>
+
+        <a href="#middle">- ayo coba komU! -</a>
+        </p>
 
         {/* <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
@@ -67,6 +72,34 @@ export default function Home() {
             </p>
           </a>
         </div> */}
+
+        </div>
+        <div style={{width:"80%", margin:"0 auto"}}>
+        <hr style={{textAlign:"center", color:"#2db0ed", border:"2px"}}></hr>
+        </div>
+        
+        <div id="middle" className={styles.verticalCenter2}>
+          <div className={styles.descKomu} >
+            <h1>
+            I statement
+            </h1>
+            <p>
+            alat komunikasi di mana kata ganti orang pertama digunakan (menggunakan "Saya" bukan “Anda") seperti "Saya terganggu oleh kebiasaan Anda" daripada "Anda memiliki kebiasaan buruk," sehingga  mengurangi negativitas dan kesan menyalahkan 
+            </p>
+          </div>
+          <div className={styles.descKomu} >
+            <h1>
+            Sandwich Feedback
+            </h1>
+            <p>
+            teknik yang terdiri dari menanggapi perilaku dengan membuat pernyataan positif tentang perilaku yang dilakukan di awal dan di akhir, dan memberikan kritik di antaranya
+            </p>
+            
+          </div>
+          <a href="/start" ><button type="button" class="btn btn-primary" href="/start" style={{fontSize:"20px", margin:"1rem"}}>Mulai!</button></a>
+
+        </div>
+      
       </main>
 
       <footer className={styles.footer}>

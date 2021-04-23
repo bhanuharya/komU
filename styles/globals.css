@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@450&display=swap');
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: 'POPPINS' !important;
+  overflow-x:hidden;
+  
 }
 
 a {
@@ -27,12 +30,19 @@ label{
 }
 
 @media (max-width: 768px) {
-  input {
+  textarea {
     
     width: 100%;
     font-size: 10pt !important;
     line-height: 24pt;
+    padding: 0 0px 20px 5px;
    
+  }
+
+  body{
+    
+    background-size: 80%, 45% !important;
+    position: relative;
   }
 }
 
@@ -46,12 +56,16 @@ label{
 
 body {
   background-color: #efefef !important;
-  background-size: cover;
+  background-image: url('../public/bg1.png'), url('../public/bg2.jpeg');
+  background-position: left top, right bottom;
+  background-repeat: no-repeat;
+  background-size: 35%, 25% ;
   width: 100vw;
-  height: 100vh;
+  
   display: grid;
   align-items: center;
   justify-items: center;
+ 
 }
 
 .contact-us {
@@ -59,6 +73,22 @@ body {
   padding: 50px 100px;
   border: 2px solid black;
   box-shadow: 15px 15px 1px #ffa580, 15px 15px 1px 2px black;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  font-size: 14pt;
+  line-height: 28pt;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 28pt;
+  border: none;
+  border-bottom: 3px solid black;
+  background: #efefef;
+  min-width: 265px;
+  padding: 0 0px 5px 5px;
+  outline: none;
+  color: black;
 }
 
 input {
@@ -72,9 +102,13 @@ input {
   border-bottom: 3px solid black;
   background: #efefef;
   min-width: 250px;
-  padding-left: 5px;
+  padding: 0 0px 5px 5px;
   outline: none;
   color: black;
+}
+
+textarea:focus {
+  border-bottom: 3px solid #2db0ed;
 }
 
 input:focus {
@@ -101,6 +135,15 @@ button:hover {
 
 ::selection {
   background: #ffc8ff;
+}
+
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus {
+  border-bottom: 5px solid #2db0ed;
+  -webkit-text-fill-color: #2A293E;
+  -webkit-box-shadow: 0 0 0px 1000px #f8f4e5 inset;
+  transition: background-color 5000s ease-in-out 0s;
 }
 
 input:-webkit-autofill,

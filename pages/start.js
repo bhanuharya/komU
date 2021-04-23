@@ -34,7 +34,7 @@ export default function Home() {
         <div className="form-komu">
 
         
-<div className="komu-input">
+        <div className="komu-input">
 {/* <label>Email</label> */}
 <input name="entry.562937120" type="email" placeholder="Email yang dituju" required/>
 </div>
@@ -62,31 +62,31 @@ export default function Home() {
 <div className="komu-input">
 {/* <label>Message</label> */}
 
-<input name="entry.394017876" type="text"  placeholder="Perasaan positif apa yang kamu rasakan mengenai dirinya? Mengapa?" required/>
+<textarea name="entry.394017876" type="text"  placeholder="Perasaan positif apa yang kamu rasakan mengenai dirinya? Mengapa?" required/>
 </div>
 
 <div className="komu-input">
 {/* <label>Message</label> */}
 
-<input name="entry.1131511430" type="text"  placeholder="Perasaan negatif apa yang kamu rasakan mengenai dirinya? Mengapa?" required/>
+<textarea name="entry.1131511430" type="text"  placeholder="Perasaan negatif apa yang kamu rasakan mengenai dirinya? Mengapa?" required/>
 </div>
 
 <div className="komu-input">
 {/* <label>Message</label> */}
 
-<input name="entry.1055247069" type="text"  placeholder="Perubahan apa yang kamu harapkan dari dirinya?" required/>
+<textarea name="entry.1055247069" type="text"  placeholder="Perubahan apa yang kamu harapkan dari dirinya?" required/>
 </div>
 
 <div className="komu-input">
 {/* <label>Message</label> */}
 
-<input name="entry.470800380" type="text"  placeholder="Apa yang menurutmu dapat kamu lakukan dalam mendukung perubahan tersebut?" required/>
+<textarea name="entry.470800380" type="text"  placeholder="Apa yang menurutmu dapat kamu lakukan dalam mendukung perubahan tersebut?" rows="2" required/>
 </div>
 
 <div className="komu-input">
 {/* <label>Message</label> */}
 
-<input name="entry.72497473" type="text"  placeholder="Untuk menutup pesanmu, hal positif apa yang ingin kamu katakan tentang dirinya?" required/>
+<textarea name="entry.72497473" type="text"  placeholder="Untuk menutup pesanmu, hal positif apa yang ingin kamu katakan tentang dirinya?" required/>
 </div>
 
 
@@ -95,7 +95,8 @@ export default function Home() {
 
 
 
-<input style={{background:"#2db0ed", color:"white",  margin:"1.5rem auto"}} type="submit" value="Send" />
+
+<input style={{background:"#2db0ed", color:"white",  margin:"1.5rem auto", paddingTop:"8px"}} type="submit" value="Send" />
 
 
 </form>
