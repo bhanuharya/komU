@@ -89,6 +89,16 @@ export default function Home() {
 <textarea name="entry.72497473" type="text"  placeholder="Untuk menutup pesanmu, hal positif apa yang ingin kamu katakan tentang dirinya?" required/>
 </div>
 
+<div className="komu-input">
+{/* <label>Message</label> */}
+
+<textarea name="entry.355671695" type="text"  placeholder="Nama Pengirim (Apabila kamu memilih untuk mengirimkan sebagai anonim, kamu bisa isi dengan [komu])" required/>
+</div>
+
+
+
+
+
 
 </div>
 
