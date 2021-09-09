@@ -43,7 +43,26 @@ export default function Home() {
         
         <p className={styles.title2} style={{fontWeight:"800"}}>
 
-        <a href="#middle">- ayo coba komU! -</a>
+        <a href="#middle">👉 ayo coba komU! 👈</a>
+
+        <div className="buttonH">
+            
+          <a href="bit.ly/komukeluarga" target="_blank">
+            <button>
+              Coba Tes Komunikasi Keluarga
+            </button>
+          </a>
+          <a href="bit.ly/komupasangan" target="_blank">
+            <button>
+              Coba Tes Komunikasi Pasangan
+            </button>
+          </a>
+          <a href="https://forms.gle/brJGcwnzt9LRhGsJA" target="_blank">
+            <button>
+              Pendaftaram Pelatihan 10 hari
+            </button>
+          </a>
+        </div>
         </p>
 
         {/* <div className={styles.grid}>
@@ -118,3 +137,4 @@ export default function Home() {
     </div>
   )
 }
+

@@ -50,19 +50,25 @@
 
 .title2 a {
   color: #ed2ea1;
+  font-size: 40px !important;
   text-decoration: none;
+  
 }
 
 .title a:hover,
 .title a:focus,
 .title a:active {
   text-decoration: underline;
+  
 }
 
 .title2 a:hover,
 .title2 a:focus,
 .title2 a:active {
   text-decoration: underline;
+  position: relative; 
+             top: -10px;
+
 }
 
 .title {
@@ -134,7 +140,17 @@
   height: 1em;
 }
 
+@media (max-heigth: 600px){
+  .verticalCenter1{
+    padding-top: 2rem !important;
+
+  }
+
+}
+
 @media (max-width: 600px) {
+
+  
   .grid {
     width: 100%;
     flex-direction: column;
@@ -142,6 +158,14 @@
 }
 
 @media (max-width: 768px) {
+
+  .title2 a {
+    color: #ed2ea1;
+    text-decoration: none;
+    font-size: 24px !important;
+    font-weight: bold;
+    
+  }
   
   .web{
     display: none !important;
@@ -179,7 +203,7 @@
   }
 
   .verticalCenter1{
-    padding-top: 16rem !important;
+    padding-top: 6rem !important;
     min-height: 100%;
     min-height: 70vh;
     text-align: center;
@@ -203,7 +227,7 @@
 }
 
 .verticalCenter1{
-  padding-top: 20rem;
+  padding-top: 15rem;
   min-height: 100%;
   min-height: 90vh;
   text-align: center !important;
@@ -226,7 +250,7 @@
 
 @media (max-height: 667px) {
   .verticalCenter1{
-    padding-top: 10rem !important;
+    padding-top: 2rem !important;
     padding-left: 2rem !important;
     padding-right: 2rem !important;
   }
@@ -240,7 +264,7 @@
 
 @media (max-height: 569px) {
   .verticalCenter1{
-    padding-top: 6rem !important;
+    padding-top: 2rem !important;
     padding-left: 1rem !important;
     padding-right: 1rem!important;
   }
@@ -291,3 +315,5 @@
 .descKomu p{
   margin-bottom: 2rem;
 }
+
+
