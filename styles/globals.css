@@ -213,19 +213,11 @@ input:-webkit-autofill:focus {
   border-radius: 15px;
   font-size: 16px;
   height: 100px;
-  width: 200px;
+  width: 250px;
+  font-weight: 600;
 }
 
-.buttonH button{
-  background-color: #0d6efd;
-  color: white;
-  padding: 1rem;
-  border-radius: 15px;
-  font-size: 16px;
-  height: 100px;
-  width: 200px;
-  
-}
+
 
 button:hover{
   transform: translate(0px, 10px);

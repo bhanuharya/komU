@@ -118,7 +118,7 @@ export default function Home() {
             </p>
             
           </div>
-          <a href="/start" ><button type="button" class="btn btn-primary" href="/start" style={{fontSize:"20px", margin:"1rem"}}>Mulai!</button></a>
+          <a href="/start" ><button type="button" className="btn btn-primary" href="/start" style={{fontSize:"20px", margin:"1rem"}}>Mulai!</button></a>
 
         </div>
       
