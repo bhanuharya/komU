@@ -47,12 +47,12 @@ export default function Home() {
 
         <div className="buttonH">
             
-          <a href="bit.ly/komukeluarga" target="_blank">
+          <a href="https://bit.ly/komukeluarga" target="_blank">
             <button>
               Coba Tes Komunikasi Keluarga
             </button>
           </a>
-          <a href="bit.ly/komupasangan" target="_blank">
+          <a href="https://bit.ly/komupasangan" target="_blank">
             <button>
               Coba Tes Komunikasi Pasangan
             </button>
