@@ -59,7 +59,7 @@ export default function Home() {
           </a>
           <a href="https://forms.gle/brJGcwnzt9LRhGsJA" target="_blank">
             <button>
-              Pendaftaram Pelatihan 10 hari
+              Pendaftaran Pelatihan 10 hari
             </button>
           </a>
         </div>
